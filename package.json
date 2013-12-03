@@ -1,9 +1,9 @@
 {
     "name": "amdefine",
     "description": "Provide AMD's define() API for declaring modules in the AMD format",
-    "version": "0.1.0",
-    "homepage": "http://github.com/jrburke/amdefine",
-    "author": "James Burke <jrburke@gmail.com> (http://github.com/jrburke)",
+    "version": "0.0.1",
+    "homepage": "https://github.com/me97esn/amdefine-mock",
+    "author": "Emil Stenberg <esandin@gmail.com> (http://github.com/me97esn)",
     "licenses": [
         {
             "type": "BSD",
@@ -16,7 +16,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/jrburke/amdefine.git"
+        "url": "https://github.com/me97esn/amdefine-mock"
     },
     "main": "./amdefine.js",
     "engines": {
