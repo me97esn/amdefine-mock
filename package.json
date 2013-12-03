@@ -1,7 +1,7 @@
 {
-    "name": "amdefine",
+    "name": "amdefine-mock",
     "description": "Provide AMD's define() API for declaring modules in the AMD format",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "homepage": "https://github.com/me97esn/amdefine-mock",
     "author": "Emil Stenberg <esandin@gmail.com> (http://github.com/me97esn)",
     "licenses": [
