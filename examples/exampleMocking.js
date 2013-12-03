@@ -1,5 +1,5 @@
 // Run this file with node.js
-require('../intercept');
+require('amdefine-mock/intercept');
 
 // Required mocks:
 Mocks = {

@@ -5,7 +5,7 @@ var inserted,
     existingExtFn = Module._extensions['.js'],
     amdefineRegExp = /amdefine\.js/;
 
-inserted  = "if (typeof define !== 'function') {var define = require('../amdefine')(module)}";
+inserted  = "if (typeof define !== 'function') {var define = require('amdefine-mock')(module)}";
 
 //From the node/lib/module.js source:
 function stripBOM(content) {
