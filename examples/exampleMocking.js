@@ -20,5 +20,6 @@ Marionette = {
 	}
 }
 
+// Note, this require has to be after the above Mock definitions
 var mod = require('./dependencies.js')
 console.log(mod)
