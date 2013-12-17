@@ -172,8 +172,7 @@ function amdefine(module, requireFn) {
         //to convert them to dependency values.
         if (deps) {
             deps = deps.map(function (depName) {
-                return Mocks[depName]
-                return r(depName);
+                return Mocks && [depName];
             });
         }
 
