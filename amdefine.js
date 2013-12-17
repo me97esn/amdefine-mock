@@ -170,10 +170,13 @@ function amdefine(module, requireFn) {
 
         //If there are dependencies, they are strings, so need
         //to convert them to dependency values.
-        if (deps) {
+        if (deps && Mocks) {
             deps = deps.map(function (depName) {
-                return Mocks && [depName];
+                return Mocks[depName];
             });
+        }
+        else {
+            console.log('Mocks or deps is undefined');
         }
 
         //Call the factory with the right dependencies.
